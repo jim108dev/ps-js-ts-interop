@@ -6,6 +6,11 @@
     "bower_components",
     "output"
   ],
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "purescript-prettier": "^0.0.2"
+  },
+  "devDependencies": {
+    "purescript-ohyes": "^0.1.0",
+    "purescript-node-fs-aff": "^4.0.0"
+  }
 }

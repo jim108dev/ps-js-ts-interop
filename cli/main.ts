@@ -1,11 +1,9 @@
 import * as OutputPeople from "../output/People";
 
-type Person = {
-  name: string;
-};
+import * as Types from "../generated/Types"
 
 type PeopleModule = {
-  david: Person
+  david: Types.Person
 }
 
 const People: PeopleModule = OutputPeople

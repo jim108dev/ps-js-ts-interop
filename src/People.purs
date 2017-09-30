@@ -1,6 +1,6 @@
 module People where
 
-type People = { name :: String }
+type Person = { name :: String }
 
-david :: People
+david :: Person
 david = { name: "David "}
