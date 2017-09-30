@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pulp build && tsc -P cli/tsconfig.json"
+    "build": "pulp build && tsc -P cli/tsconfig.json --outDir build"
   },
   "repository": {
     "type": "git",
