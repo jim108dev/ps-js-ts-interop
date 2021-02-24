@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate:ts": "pulp run -m GenerateTS",
+    "generate:ts": "spago run -m GenerateTS",
     "prebuild": "npm run generate:ts",
-    "build": "pulp build && tsc -P cli/tsconfig.json --outDir build"
+    "build": "spago build && tsc -P cli/tsconfig.json --outDir build"
   },
   "repository": {
     "type": "git",
@@ -19,12 +19,8 @@
   },
   "homepage": "https://github.com/dvdsgl/ps-js-ts-interop#readme",
   "devDependencies": {
-    "@types/node": "^8.0.31",
-    "bower": "^1.8.2",
-    "prettier": "^1.7.3",
-    "pulp": "^12.0.1",
-    "purescript": "^0.11.6",
-    "purs": "0.0.8",
-    "typescript": "^2.5.3"
+    "@types/node": "latest",
+    "prettier": "latest",
+    "typescript": "latest"
   }
 }
